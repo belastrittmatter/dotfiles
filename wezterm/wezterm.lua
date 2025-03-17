@@ -14,6 +14,7 @@ config.default_cursor_style = "BlinkingBlock"
 config.animation_fps = 1
 config.cursor_blink_rate = 500
 config.term = "xterm-256color" -- Set the terminal type
+config.window_close_confirmation = "NeverPrompt"
 
 -- config.font = wezterm.font("Iosevka Custom")
 -- config.font = wezterm.font("Monocraft Nerd Font")
