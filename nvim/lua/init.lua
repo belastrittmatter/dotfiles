@@ -1,0 +1,1 @@
+require("bela.core")
