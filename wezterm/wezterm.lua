@@ -29,7 +29,7 @@ config.cell_width = 0.9
 -- config.font = wezterm.font("M+ 1m")
 -- config.font = wezterm.font("Hack Regular")
 -- config.cell_width = 0.9
-config.window_background_opacity = 0.98
+config.window_background_opacity = 0.97
 config.prefer_egl = true
 config.font_size = 15.0
 

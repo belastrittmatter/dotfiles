@@ -1,5 +1,19 @@
 return {
 	"williamboman/mason.nvim",
+  opts = {
+    ensure_installed = {
+      	"ts_ls",
+				"html",
+				"cssls",
+				"tailwindcss",
+				"svelte",
+				"lua_ls",
+				"graphql",
+				"emmet_ls",
+				"prismals",
+				"pyright",
+    },
+  },
 	dependencies = {
 		"williamboman/mason-lspconfig.nvim",
 		"WhoIsSethDaniel/mason-tool-installer.nvim",
@@ -21,22 +35,6 @@ return {
 					package_pending = "➜",
 					package_uninstalled = "✗",
 				},
-			},
-		})
-
-		mason_lspconfig.setup({
-			-- list of servers for mason to install
-			ensure_installed = {
-				"ts_ls",
-				"html",
-				"cssls",
-				"tailwindcss",
-				"svelte",
-				"lua_ls",
-				"graphql",
-				"emmet_ls",
-				"prismals",
-				"pyright",
 			},
 		})
 
