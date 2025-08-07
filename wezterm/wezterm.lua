@@ -29,7 +29,6 @@ config.cell_width = 0.9
 -- config.font = wezterm.font("M+ 1m")
 -- config.font = wezterm.font("Hack Regular")
 -- config.cell_width = 0.9
-config.window_background_opacity = 0.97
 config.prefer_egl = true
 config.font_size = 15.0
 
@@ -113,6 +112,7 @@ config.keys = {
 
 -- For example, changing the color scheme:
 config.color_scheme = "Catppuccin Mocha"
+config.window_background_opacity = 0.975
 
 config.window_frame = {
 	font = wezterm.font({ family = "JetBrainsMono NFM", weight = "Bold" }),
@@ -122,7 +122,7 @@ config.window_frame = {
 
 -- config.window_decorations = "INTEGRATED_BUTTONS | RESIZE"
 config.window_decorations = "NONE | RESIZE"
-config.default_prog = { "wsl", "--cd", "/~", "--exec", "zsh" }
+config.default_prog = { "wsl", "--cd", "~", "--exec", "zsh" }
 config.initial_cols = 80
 -- config.window_background_image = "C:/dev/misc/berk.png"
 -- config.window_background_image_hsb = {
